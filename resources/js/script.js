@@ -19,6 +19,10 @@ $(document).ready(function() {
     $('.js--scroll-to-start').click(function() {
         $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
     });
+
+    $('.js--scroll-to-top').click(function() {
+        $('html, body').animate({scrollTop: $('.js--main-header').offset().top}, 1000);
+    });
     
     /* Navigation scroll */
     // Select all links with hashes
