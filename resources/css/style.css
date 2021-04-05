@@ -154,6 +154,11 @@ a:visited {
     transition: border-bottom 0.3s, color 0.3s;
 }
 
+#logo-link {
+    border: 0;
+    padding: 0;
+}
+
 a:hover,
 a:active {
     color: #555;
